@@ -1,0 +1,9 @@
+from itertools import product
+A=map(int,raw_input().split())
+B=map(int,raw_input().split())
+A.sort()
+B.sort()
+AxB= list(product(A,B))
+for i in AxB:
+    print i,
+   
